@@ -12,6 +12,8 @@ body {
     display: flex;
     align-items: center;
     padding: 10px 0;
+    max-width: 1194px;
+    margin: auto;
 }
 .search-form {
    margin-left: 76px; 
@@ -78,4 +80,122 @@ body {
     position: absolute;
     bottom: 0%;
     right: 0;
+}
+.slide {
+    border-radius: 20px;
+    max-height: 399px;
+    max-width: 1190px;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+.slide-title {
+    margin-top: 0%;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+.slide-text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.slide-content {
+    max-width: 400px;
+}
+.slide-text-light {
+    background-color: gray;
+    color:white ;
+}
+.button-primary {
+    background: #F47322;
+    color: white;
+}
+
+.button {
+    border-radius: 25px;
+    padding: 12px 52px;
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.button-default {
+    background-color: #fff;
+    color: #5F5F61;
+    margin-top: 38px;
+}
+.slide-summer {
+    background-image: url(/img/Rectangle1.png);
+}
+.promo {
+    margin-top: 50px;
+}
+.card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 32px;
+    max-width: 570px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card::before {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(.png);
+}
+.card-text-light {
+    color: white;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    margin-top: 4px;
+    margin-bottom: 21px;
+}
+.card-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    max-width: 168px;
+}
+.card-price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    display: block;
+    margin-bottom: 8px;
+}
+.card-delivery {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+.min-effort {
+    padding-right: 0;
 }
