@@ -136,9 +136,15 @@ body {
     background-image: url(/img/Rectangle1.png);
 }
 .promo {
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: -20px;
 }
 .card {
+    flex: 50%;
+    margin: 20px;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
@@ -198,4 +204,250 @@ body {
 }
 .min-effort {
     padding-right: 0;
+}
+.section-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    margin-top: 110px;
+    margin-bottom: 47px;
+}
+.delivery-card {
+    position: relative;
+    width: 275px;
+    height: 182px;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 15px;
+}
+.delivery-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+.card-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49494F;
+    padding: 5px 10px;
+    margin-top: 16px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+.label-health {
+    background: #D0FD89;
+}
+.delivery-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.label-veg {
+    background: #AEBC41;
+    color: #FFFFFF;
+}
+.label-meat {
+    background: #B86B78;
+    color: #FFFFFF;
+}
+.label-bird {
+    background: #D68334;
+    color: #FFFFFF;
+}
+.label-fish {
+    background: #CD6255;
+    color: #FFFFFF;
+}
+.label-child {
+    background: #FFFDBF;
+}
+.label-parents {
+    background: #F6FDC8;
+}
+.label-celebration {
+    background: #FEF7FE;
+}
+.category {
+    background: #F6F6F6;
+    height: 841px;
+}
+.category-heading {
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin-bottom: 50px;
+}
+.tabs {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0px;
+}
+.tabs-item {
+    padding-right: 58px;
+}
+.tabs-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    line-height: 23px;
+}
+.active-tab {
+    color: #F37321;
+}
+.category-cards {
+    padding-top: 62px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 62px;
+}
+.category-card {
+    box-shadow: 0px 0px 50px 0px #c5c5c5;
+    width: 270px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.category-info {
+    width: 220px;
+    margin-left: 23px;
+    margin-right: 27px;
+}
+.category-card-heading {
+    padding-top:0 ;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+.category-card-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #B9B9BE;
+}
+.category-footer {
+    position: relative;
+    width: 220px;
+    margin-left: 23px;
+    margin-right: 27px;
+    padding-top: 37px;
+    padding-bottom: 24px;
+}
+.category-card-price {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4B4B51;   
+}
+.category-card-weight {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #AAAAB1;
+}
+.card-button-basket {
+    position: absolute;
+    background-color: transparent;
+    width: 125px;
+    height: 50px;
+    color: #F37321;
+    border-radius: 20px;
+    border-color: #F37321;
+    border-style: solid;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.category-button-dishes {
+    color: #F37321;
+    border-radius: 20px;
+    border-color: #F37321;
+    border-style: solid;
+    cursor: pointer;
+    width: 315px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.advantages-heading {
+    padding-top: 100px;
+}
+.advantages-cards {
+    padding-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 202px;
+}
+.advantages-card {
+    box-shadow: 0px 0px 50px 0px #c5c5c5;
+    width: 270px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.advantages-info {
+    width: 223px;
+    margin-left: 23px;
+    margin-right: 27px;
+    margin-top: 31px;
+}
+.advantages-card-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+.advantages-card-description {
+    font-size: 14px;
+    line-height: 22px;
+}
+.footer {
+    background: #F6F6F6;
+}
+.footer-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.footer-logo {
+    width: 201px;
+    height: 92px;
+}
+.footer-links {
+    margin-left: 73px;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.footer-link {
+    margin-left: 50px;
+    color: #000000;
+}
+.footer-link1 {
+    color: black;
+}
+.footer-social {
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+}
+.social-link {
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
 }
